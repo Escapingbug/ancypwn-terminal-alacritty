@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ancypwn-terminal-alacritty',
-    version='0.0.1',
+    version='0.0.2',
     url='https://github.com/Escapingbug/ancypwn-terminal-alacritty',
     author='Anciety',
     author_email='ancypwn@pku.edu.cn',
