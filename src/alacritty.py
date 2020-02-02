@@ -12,7 +12,7 @@ def run(command):
         execute = \
             'alacritty -e powershell -NoExit -Command "{}"'.format(command)
     else:
-        execute = 'alacritty -e "{}"'.format(_escape_command_unix(command))
+        execute = 'alacritty -e {}'.format(_escape_command_unix(command))
     res = os.system(execute)
 
 
